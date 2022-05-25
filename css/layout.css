@@ -1,0 +1,119 @@
+@import url(../css/reset.css);
+@import url(../css/common.css);
+@font-face { font-family: 'Nanum Gothic'; src: url("../font/NanumGothic-Regular.eot"); src: url("../font/NanumGothic-Regular.eot?#iefix") format("embedded-opentype"), url("../font/NanumGothic-Regular.woff2") format("woff2"), url("../font/NanumGothic-Regular.woff") format("woff"), url("../font/NanumGothic-Regular.ttf") format("truetype"); font-weight: 400; }
+
+@font-face { font-family: 'Nanum Gothic'; src: url("../font/NanumGothic-Bold.eot"); src: url("../font/NanumGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../font/NanumGothic-Bold.woff2") format("woff2"), url("../font/NanumGothic-Bold.woff") format("woff"), url("../font/NanumGothic-Bold.ttf") format("truetype"); font-weight: 700; }
+
+@font-face { font-family: 'Nanum Gothic'; src: url("../font/NanumGothic-ExtraBold.eot"); src: url("../font/NanumGothic-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../font/NanumGothic-ExtraBold.woff2") format("woff2"), url("../font/NanumGothic-ExtraBold.woff") format("woff"), url("../font/NanumGothic-ExtraBold.ttf") format("truetype"); font-weight: 800; }
+
+body { font-size: 16px; color: #222; font-family: 'Nanum Gothic', sans-serif; letter-spacing: -0.05em; }
+
+.inner { width: 1152px; margin: 0 auto; min-width: 1152px; }
+
+header .menu_area { overflow: hidden; line-height: 1.35em; }
+
+header .menu_area .logo_kr { width: 105px; height: 27px; margin-top: 8px; float: left; background-position: -5px -165px; }
+
+header .menu_area .logo_kr a { display: block; height: 100%; }
+
+header .menu_area .gnb_wrap { float: left; margin-left: 60px; font-weight: bold; }
+
+header .menu_area .gnb_wrap .gnb { overflow: hidden; }
+
+header .menu_area .gnb_wrap .gnb > li { float: left; margin-right: 20px; }
+
+header .menu_area .gnb_wrap .gnb > li > a { height: 48px; line-height: 48px; }
+
+header .menu_area .gnb_wrap .gnb > li > a:hover { color: #2292e9; }
+
+header .menu_area .login_wrap { float: right; overflow: hidden; font-size: 14px; font-weight: bold; }
+
+header .menu_area .login_wrap > a { float: left; margin: 0 10px; height: 48px; line-height: 48px; }
+
+header .menu_area .login_wrap > a:hover { color: #2292e9; }
+
+header .search_area { overflow: hidden; position: relative; }
+
+header .search_area .logo_en { float: left; width: 178px; height: 51px; background: url(../image/logo.png) 0 0 no-repeat; margin: 38px 0 30px; }
+
+header .search_area .logo_en > a { display: block; height: 100%; }
+
+header .search_area .search_wrap { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 460px; height: 42px; margin-left: -15px; border: 3px solid #2292e9; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+header .search_area .search_wrap .srh_txt { width: calc(100% - 57px); height: 36px; line-height: 36px; border: 0; outline: 0; padding: 0 10px; }
+
+header .search_area .search_wrap .srh_key { position: absolute; right: 40px; top: 12px; display: inline-block; width: 29px; height: 16px; background: url(../image/keyboard_icon.png) center no-repeat; outline: 0; border: 0; cursor: pointer; }
+
+header .search_area .search_wrap .srh_btn { display: inline-block; width: 36px; height: 36px; background-position: -32px -97px; border: 0; cursor: pointer; background-color: #fff; position: absolute; right: 0; top: 0; }
+
+header .search_area .weather_wrap { float: right; position: relative; }
+
+header .search_area .weather_wrap .group_language { overflow: hidden; position: absolute; right: 0; top: 0; }
+
+header .search_area .weather_wrap .group_language select { float: left; width: 80px; height: 21px; border-color: #afcfea; color: #1e6cb3; font-size: 12px; -webkit-box-sizing: border-box; box-sizing: border-box; line-height: 21px; padding: 0 0 0 2px; }
+
+header .search_area .weather_wrap .group_language .go_btn { float: left; width: 30px; height: 21px; background-color: #1e6cb3; border: 0; color: #fff; font-size: 11px; }
+
+header .search_area .weather_wrap .group_weather { margin-top: 34px; overflow: hidden; width: 260px; height: 85px; }
+
+header .search_area .weather_wrap .group_weather .image { float: left; width: 58px; height: 47px; margin: 4px 0 0 3px; }
+
+header .search_area .weather_wrap .group_weather .txt { float: left; margin: 0 0 0 5px; }
+
+header .search_area .weather_wrap .group_weather .txt .degree { letter-spacing: -0.1em; display: block; }
+
+header .search_area .weather_wrap .group_weather .txt .degree .bold { font-size: 25px; margin-right: 13px; }
+
+header .search_area .weather_wrap .group_weather .txt .dust { letter-spacing: -1px; display: block; font-size: 13px; margin-top: 13px; }
+
+footer { font-size: 12px; color: #636363; }
+
+footer .top_area { border-bottom: 1px solid #ccc; overflow: hidden; }
+
+footer .top_area .ft_service { padding: 15px 0; float: left; }
+
+footer .top_area .ft_service a.sidebar::after { content: ''; display: inline-block; width: 1px; height: 14px; vertical-align: -3px; margin: 0 5px 0 10px; background-color: #dcdcdc; }
+
+footer .top_area .ft_sns_list { float: right; margin-top: 14px; }
+
+footer .top_area .ft_sns_list a { display: inline-block; width: 24px; height: 24px; }
+
+footer .top_area .ft_sns_list .link_facebook { background-position: -25px 0; }
+
+footer .top_area .ft_sns_list .link_facebook:hover { background-position: -25px -25px; }
+
+footer .top_area .ft_sns_list .link_twitter { background-position: -50px 0; margin-left: 12px; }
+
+footer .top_area .ft_sns_list .link_twitter:hover { background-position: -50px -25px; }
+
+footer .top_area .ft_sns_list .link_insta { background-position: -75px 0; margin-left: 12px; }
+
+footer .top_area .ft_sns_list .link_insta:hover { background-position: -75px -25px; }
+
+footer .top_area .ft_sns_list .link_kakaostory { background-position: -100px 0; margin-left: 12px; }
+
+footer .top_area .ft_sns_list .link_kakaostory:hover { background-position: -100px -25px; }
+
+footer .top_area .ft_sns_list .link_utube { background-position: -125px 0; margin-left: 12px; }
+
+footer .top_area .ft_sns_list .link_utube:hover { background-position: -125px -25px; }
+
+footer .top_area .ft_sns_list .link_blog { background-position: -150px 0; margin-left: 12px; }
+
+footer .top_area .ft_sns_list .link_blog:hover { background-position: -150px -25px; }
+
+footer .bottom_area { padding: 22px 0; overflow: hidden; }
+
+footer .bottom_area .callcenter { margin-right: 40px; width: 108px; height: 45px; float: left; background-position: -180px 0; }
+
+footer .bottom_area .address_wrap { float: left; }
+
+footer .bottom_area .address_wrap address { float: left; line-height: 1.5em; }
+
+footer .bottom_area .address_wrap .copy { display: block; font-size: 11px; }
+
+footer .bottom_area .certifi_wrap { float: right; }
+
+footer .bottom_area .certifi_wrap a { display: inline-block; }
+
+footer .bottom_area .certifi_wrap a + a { margin-left: 10px; }

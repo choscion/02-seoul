@@ -1,0 +1,63 @@
+.blind{
+    position: absolute;   
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+.bold{font-weight: bold;}
+.image > img{width: 100%;}
+.lightgreen {color: #599100;}
+
+.green {color: #069363;}
+
+.skyblue {color: #028ab6;}
+
+.purple {color: #9b64d3;}
+
+.link_more{
+    position: absolute;
+    right: 0;
+}
+
+
+header .logo_kr,header .search_area .search_wrap .srh_btn,
+.inner_wrap .sc_visual .tab_cont .slide01 .controls .btn.prev,
+.inner_wrap .sc_visual .tab_cont .slide01 .controls .btn.pause,
+.inner_wrap .sc_visual .tab_cont .slide01 .controls .btn.play, 
+.inner_wrap .sc_visual .tab_cont .slide01 .controls .btn.next,
+.sc_news .link_more::after,.banner .slide03 .controls .btn.prev,
+.banner .slide03 .controls .btn.pause,.banner .slide03 .controls .btn.play,
+.banner .slide03 .controls .btn.next,footer .bottom_area .callcenter{
+    background-image: url(../image/sp_bg.png);
+    background-repeat: no-repeat;
+}
+
+/* .sc_service .ic_reserve, .sc_service .ic_complaint,
+.sc_service .ic_job, .sc_service .ic_estate,
+.sc_service .ic_study, .sc_service .ic_welfare,
+.sc_service .ic_home, .sc_service .ic_village,
+.sc_service .ic_myhand, .sc_service .ic_ebook,
+.sc_service .ic_council{
+    background: url(../image/icons.png) no-repeat;
+} */
+
+.group_sns .sns_wrap .title::after, .group_sns .sns_list a.link_insta,
+.group_sns .sns_list a.link_facebook,.group_sns .sns_list a.link_twitter,
+.group_sns .sns_list a.link_blog,.group_sns .sns_list a.link_utube,
+.group_sns .sns_list a.link_kakaostory{
+    background: url(../image/sns_icon.png) no-repeat;
+}
+
+footer .top_area .ft_sns_list .link_facebook,
+footer .top_area .ft_sns_list .link_facebook:hover,
+footer .top_area .ft_sns_list .link_twitter,
+footer .top_area .ft_sns_list .link_twitter:hover,
+footer .top_area .ft_sns_list .link_insta,
+footer .top_area .ft_sns_list .link_insta:hover,
+footer .top_area .ft_sns_list .link_kakaostory,
+footer .top_area .ft_sns_list .link_kakaostory:hover,
+footer .top_area .ft_sns_list .link_utube,
+footer .top_area .ft_sns_list .link_utube:hover,
+footer .top_area .ft_sns_list .link_blog,
+footer .top_area .ft_sns_list .link_blog:hover{background: url(../image/sns_icon2.png) no-repeat;}
