@@ -10,7 +10,7 @@
 
 .sc_visual .slide h3 a { display: block; width: 100%; height: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; padding-top: 50px; }
 
-.sc_visual .slide h3 a::before { content: ''; display: block; width: 50px; height: 50px; margin: 0 auto 10px; border-radius: 50%; background: #fff url(/image/sp_bg2.png) no-repeat; }
+.sc_visual .slide h3 a::before { content: ''; display: block; width: 50px; height: 50px; margin: 0 auto 10px; border-radius: 50%; background: #fff url(../image/sp_bg2.png) no-repeat; }
 
 .sc_visual .slide h3 a.ic_key::before { background-position: 0 0; }
 
@@ -38,7 +38,7 @@
 
 .sc_visual .controls .fraction::after { content: ''; display: inline-block; width: 1px; height: 20px; background-color: #fff; margin-left: 12px; vertical-align: -5px; }
 
-.sc_visual .controls .btn { float: left; width: 18px; height: 18px; -webkit-box-sizing: border-box; box-sizing: border-box; margin-top: 2px; background: url(/image/sp_bg.png) no-repeat 100%; }
+.sc_visual .controls .btn { float: left; width: 18px; height: 18px; -webkit-box-sizing: border-box; box-sizing: border-box; margin-top: 2px; background: url(../image/sp_bg.png) no-repeat 100%; }
 
 .sc_visual .controls .btn.prev { background-position: -241px -285px; }
 
@@ -100,7 +100,7 @@
 
 .sc_service ul li a { font-size: 15px; display: block; width: 100%; height: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-.sc_service ul li a::before { content: ''; display: block; width: 60px; height: 60px; margin: 0 auto 10px; background-color: #f00; background: url(/image/icons.png) no-repeat; }
+.sc_service ul li a::before { content: ''; display: block; width: 60px; height: 60px; margin: 0 auto 10px; background-color: #f00; background: url(../image/icons.png) no-repeat; }
 
 .sc_service ul li a.ic_reserve::before { background-position: -360px 0; }
 

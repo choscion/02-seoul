@@ -40,7 +40,7 @@
                         width: 50px;height: 50px;
                         margin: 0 auto 10px;
                         border-radius: 50%;
-                        background: #fff url(/image/sp_bg2.png) no-repeat;
+                        background: #fff url(../image/sp_bg2.png) no-repeat;
                     }
                     &.ic_key{
                         &::before{background-position: 0 0;}
@@ -125,7 +125,7 @@
                 width: 18px;height: 18px;
                 box-sizing: border-box;
                 margin-top: 2px;
-                background: url(/image/sp_bg.png) no-repeat 100%;
+                background: url(../image/sp_bg.png) no-repeat 100%;
                 &.prev{background-position: -241px -285px;}
                 &.pause{background-position: -285px -285px;}
                 &.play{background-position: -269px -285px;}
@@ -273,7 +273,7 @@
                     width: 60px;height: 60px;
                     margin: 0 auto 10px;
                     background-color: #f00;
-                    background: url(/image/icons.png) no-repeat;
+                    background: url(../image/icons.png) no-repeat;
                 }
                 &.ic_reserve{
                     &::before{background-position: -360px 0;}
